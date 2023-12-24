@@ -75,3 +75,7 @@ public static function removeStaticIpPlan($client, $name)
 Note: The actual RouterOS commands and arguments depend on what exactly you're trying to achieve with static IP plans. The commands used in the examples are hypothetical and should be replaced with the appropriate RouterOS API commands for managing static IP configurations. You should refer to the MikroTik RouterOS API documentation for the correct commands and parameters.
 
 After defining these methods, you can call them in your application logic where you handle static IP plans, similar to how you currently handle hotspot and PPPoE plans. Remember to test these new methods thoroughly in a controlled environment before deploying them in a production environment.
+
+
+
+in Mikrotik.php there are some good arguments there
